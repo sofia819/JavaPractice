@@ -1,5 +1,8 @@
 public class ReverseString {
 	
+	/*
+	 * Reverse string with loop
+	 * */
 	private String reverseLoop(String str) {
 		String res = "";
 		for(int i = str.length() - 1; i >= 0; i--)
@@ -7,6 +10,9 @@ public class ReverseString {
 		return res;
 	}
 	
+	/*
+	 * Reverse string with recursion
+	 * */
 	private String reverseRec(String str) {
 		if (str.length() < 2) {
             return str;
